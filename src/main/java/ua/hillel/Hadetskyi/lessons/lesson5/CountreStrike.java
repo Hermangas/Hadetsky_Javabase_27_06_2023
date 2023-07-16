@@ -26,6 +26,7 @@ public class CountreStrike {
         String teamName2 = scanner.nextLine();
         teamName2 = scanner.nextLine();
 
+
         System.out.print("1 player kills: ");
         byte player1Team2 = scanner.nextByte();
         System.out.print("2 player kills: ");
