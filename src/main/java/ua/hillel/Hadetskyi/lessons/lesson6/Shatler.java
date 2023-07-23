@@ -13,7 +13,6 @@ public class Shatler {
 
                 if (i / 10 == 4 || i / 10 == 9 || i % 10 == 4 || i % 10 == 9) {
                     continue;
-
                 }
 
                 System.out.println(shalter + i);
@@ -22,12 +21,7 @@ public class Shatler {
                 if (counter == maxCounter){
                     break;
                 }
-
-
-
-
         }
-
 
 
     }
