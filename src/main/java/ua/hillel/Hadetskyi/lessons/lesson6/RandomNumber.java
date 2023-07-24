@@ -9,15 +9,13 @@ public class RandomNumber {
 
         int maxAttempt = 4;
         int attempt = 0;
-        int number;
+        int number = 0;
 
         int randomNumber = (int) (Math.random() * 10);
-        System.out.println(randomNumber);
 
 
         while(attempt < maxAttempt) {
             System.out.println("Вгадайте число від 1 до 10: ");
-             number = scanner.nextInt();
 
             if (scanner.hasNextInt()){
                 number = scanner.nextInt();
